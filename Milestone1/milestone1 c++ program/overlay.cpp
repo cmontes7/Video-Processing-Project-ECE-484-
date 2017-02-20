@@ -1,17 +1,17 @@
 #include "overlay.h"
 
-bool Overlay::twoImageSameDimension(Image background, Image foreground){
+bool Image::twoImageSameDimension(Image background, Image foreground){
 	if(background.getImageWidth() == foreground.getImageWidth() && background.getImageHeight() == foreground.getImageHeight())
 		return true;
 	else
 		return false;
 }
 
-void Overlay::setPixelsOverlaid(Image background){
+void Image::setPixelsOverlaid(Image background){
 	vector<unsigned int> row; // vector that will be filled with row pixels
     int cnt = 0;              // count for knowing when we have a complete row
     int r = 0;
-	
+
 	int size = background.getBmpData().size();
 	int imageWidth = background.getImageWidth();
 	vector< unsigned int> bmpData = background.getBmpData();
@@ -29,27 +29,26 @@ void Overlay::setPixelsOverlaid(Image background){
         cnt++;
     }
 }
-void Overlay::overlayImage(Image background, Image foreground){
-    setPixelsOverlaid(background);
-	
+void Image::overlayImage(Image foreground){
+
     ///~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     // create overlay pixels
 	vector< vector <unsigned int> > pixelsB = background.getPixels();
 	vector< vector <unsigned int> > pixelsF = foreground.getPixels();
-	
+
     vector< vector <unsigned int> >::iterator vitrB = pixelsB.begin();
 	vector< vector <unsigned int> >::iterator vitrF = pixelsF.begin();
 	vector< vector <unsigned int> >::iterator vitrO = pixelsOverlaid.begin();
-	
+
     vector <unsigned int>::iterator itrB;
 	vector <unsigned int>::iterator itrF;
 	vector <unsigned int>::iterator itrO;
-	
+
     while (vitrO != pixelsOverlaid.end()){
         itrB = vitrB->begin();
 		itrF = vitrF->begin();
 		itrO = vitrO->begin();
-        while (itrO != vitrO->end()){ 
+        while (itrO != vitrO->end()){
 			if(*itrF == 0){
 				*itrO = 255;
 			}

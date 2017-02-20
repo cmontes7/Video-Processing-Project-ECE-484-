@@ -93,7 +93,40 @@ void Image::outputBM (char  filename[]){
     fclose(outputFile);
 }
 
+int Image::getImageWidth(){
+	//printf("Image Width from get: %d \n", imageWidth);
+	return imageWidth;
+}
+
+int Image::getImageHeight(){
+	//printf("Image Height from get: %d \n", imageHeight);
+	return imageHeight;
+}
+
+int Image::getImageBits(){
+	//printf("Image Bits from get: %d \n", imageBits);
+	return imageBits;
+}
+
+int Image::getOffset(){
+	//printf("Image offset from get: %d \n", offset);
+	return offset;
+}
+
+vector< unsigned int> Image::getBmpData(){
+	//printf("Image bmpData from get: %lu \n", bmpData.size());
+	return bmpData;
+}
+
+vector<vector <unsigned int> > Image::getPixels(){
+	//printf("Image pixels from get: %lu \n", pixels.size());
+	return pixels;
+}
+
 void Image::histogramEqualization(){
+
+    ofstream f;
+    f.open("Original_hist.txt");
 
     // create histogram
     int hist[256] = {0};
@@ -108,6 +141,12 @@ void Image::histogramEqualization(){
         }
         vitr++;
     }
+
+    for(int i=0; i<255; i++){
+        f << hist[i] << endl;
+    }
+
+    f.close();
 
 
     // create cumulative histogram
@@ -129,6 +168,74 @@ void Image::histogramEqualization(){
     }
 
     // Print equalized image to file
-    char filename[40] = "equalized.bmp";
+    char filename[40] = "out2.bmp";
     outputBM(filename);
+
+    f.open("Equalized_hist.txt");
+
+     for(int i=0; i<256; i++){
+        hist[i] =0;
+    }
+
+    vitr = pixels.begin();
+
+    while (vitr != pixels.end()){
+        itr = vitr->begin();
+        while (itr != vitr->end()){
+            hist[*itr]++;
+            itr++;
+        }
+        vitr++;
+    }
+
+    for(int i=0; i<255; i++){
+        f << hist[i] << endl;
+    }
+
+    f.close();
 }
+
+bool Image::twoImageSameDimension(Image compare){
+	if( imageWidth == compare.getImageWidth() && imageHeight== compare.getImageHeight())
+		return true;
+	else
+		return false;
+}
+
+void Image::overlay(char filename[]){
+    Image foreground;
+    foreground.readBM(filename);
+
+    //check to see if the images are the same size
+    if ( twoImageSameDimension(foreground) == false)
+        exit(1);
+
+    vector< vector <unsigned int>> foreground_pixels = foreground.getPixels();
+    vector< vector <unsigned int> >::iterator vitrB = pixels.begin();
+	vector< vector <unsigned int> >::iterator vitrF = foreground_pixels.begin();
+
+	vector <unsigned int>::iterator itrB;
+    vector <unsigned int>::iterator itrF;
+
+    // Adjust the pixel values
+    while (vitrB != pixels.end()){
+        itrB = vitrB->begin();
+        itrF = vitrF->begin();
+        while (itrB != vitrB->end()){
+
+            if(*itrF == 0){
+				*itrB = 255;
+			}
+            itrB++;
+            itrF++;
+        }
+        vitrB++;
+        vitrF++;
+    }
+
+    // Print equalized image to file
+    char fn[40] = "out1.bmp";
+    outputBM(fn);
+
+}
+

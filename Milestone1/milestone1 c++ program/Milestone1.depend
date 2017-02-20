@@ -19,7 +19,7 @@
 1485642877 source:c:\users\mike\dropbox\odu\spring 17\ece 484 - computer senior design\milestone1\image.cpp
 	"image.h"
 
-1485577097 source:c:\users\mike\dropbox\odu\spring 17\ece 484 - computer senior design\milestone1\milestone1 c++ program\main.cpp
+1486941906 source:c:\users\mike\dropbox\odu\spring 17\ece 484 - computer senior design\milestone1\milestone1 c++ program\main.cpp
 	<iostream>
 	<stdio.h>
 	<stdlib.h>
@@ -27,7 +27,7 @@
 	<vector>
 	"image.h"
 
-1485578507 c:\users\mike\dropbox\odu\spring 17\ece 484 - computer senior design\milestone1\milestone1 c++ program\image.h
+1485972077 c:\users\mike\dropbox\odu\spring 17\ece 484 - computer senior design\milestone1\milestone1 c++ program\image.h
 	<iostream>
 	<stdio.h>
 	<stdlib.h>
@@ -35,7 +35,10 @@
 	<vector>
 	<cmath>
 	<fstream>
+	<windows.h>
 
-1485645760 source:c:\users\mike\dropbox\odu\spring 17\ece 484 - computer senior design\milestone1\milestone1 c++ program\image.cpp
+1485972665 source:c:\users\mike\dropbox\odu\spring 17\ece 484 - computer senior design\milestone1\milestone1 c++ program\image.cpp
 	"image.h"
+
+1485795637 source:c:\users\mike\dropbox\odu\spring 17\ece 484 - computer senior design\milestone1\milestone1 c++ program\overlay.cpp
 

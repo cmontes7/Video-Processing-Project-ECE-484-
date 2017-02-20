@@ -17,8 +17,16 @@ int main() {
 	printf("Enter BMP filename: ");
 	cin >> filename;
 
-    original.readBM(filename);
-    original.histogramEqualization();
+	original.readBM(filename);
+
+	printf("Enter overlay filename: ");
+	cin >> filename;
+    original.overlay(filename);
+
+//    original.readBM(filename);
+//    original.histogramEqualization();
+
+
 
 	return 0;
 }
