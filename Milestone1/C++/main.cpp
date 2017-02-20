@@ -16,7 +16,6 @@ int main() {
 
 	printf("Enter BMP filename: ");
 	cin >> filename;
-
 	original.readBM(filename);
 
 	printf("Enter overlay filename: ");

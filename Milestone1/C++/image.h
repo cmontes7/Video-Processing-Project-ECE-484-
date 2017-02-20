@@ -8,7 +8,6 @@
 #include <vector>
 #include <cmath>
 #include <fstream>
-#include <windows.h>
 
 using namespace std;
 
@@ -40,7 +39,5 @@ class Image{
          void histogramEqualization();
          void overlay(char  filename[]);
 };
-
-string ExePath();
 
 #endif // IMAGE_H_INCLUDED
