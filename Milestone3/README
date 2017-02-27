@@ -1,0 +1,4 @@
+The VHDL code for each part is in the .vhd file for each specific part
+- slider VHDL code : slider/slider.vhd
+- part2 VHDL code : part2/part2.vhd
+- part3 VHDL code : part3/part3.vhd
