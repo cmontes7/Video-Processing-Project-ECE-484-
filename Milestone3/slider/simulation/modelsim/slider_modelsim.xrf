@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/15.0/ms3/slider.vhd
+source_file = 1, C:/altera/15.0/ms3/output_files/Chain3.cdf
+source_file = 1, c:/altera/15.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/15.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/15.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/15.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/altera/15.0/ms3/db/slider.cbx.xml
+design_name = slider
+instance = comp, \f~output\, f~output, slider, 1
+instance = comp, \x1~input\, x1~input, slider, 1
+instance = comp, \x2~input\, x2~input, slider, 1
+instance = comp, \f~0\, f~0, slider, 1

@@ -1,0 +1,11 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+entity part1 is
+		port(x1,x2: in std_logic;
+				f	 : out std_logic);
+end part1;
+
+architecture andGate of part1 is
+begin 
+	f<= x1 and x2;
+end andGate;
