@@ -1,0 +1,26 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all; 
+use ieee.numeric_std.all;
+entity part3 is
+		port(x1: in std_logic;
+			  f0 : out unsigned(0 to 6);
+			  f1 : out unsigned(0 to 6));
+			  
+end part3 ;
+
+architecture count of part3 is
+signal cnt: integer := 0 ;
+begin
+process(x1)
+variable lsd, msd: integer :=0;
+begin 
+if (x1 = '0') then
+	cnt <= (cnt + 1)mod 100;
+	msd := cnt/10;
+	lsd := cnt mod 10;
+	--f <= to_unsigned(cnt,8);
+	--f <= "00100100";
+end if;
+end process;
+	
+end count;

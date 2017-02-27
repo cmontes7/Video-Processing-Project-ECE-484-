@@ -1,0 +1,17 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+entity counter8 is
+		port(x1: in std_logic;
+			  f : out std_logic_vector(0 to 7));
+end counter8 ;
+
+architecture count of slider is
+
+begin
+process(x1)
+variable cnt: integer := 0;
+begin 
+	cnt := (cnt + 1)mod 64;
+end process;
+	
+end count;
