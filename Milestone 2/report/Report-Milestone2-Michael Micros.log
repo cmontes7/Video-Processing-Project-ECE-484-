@@ -1,7 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.26)  19 FEB 2017 23:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.26)  24 FEB 2017 19:56
 entering extended mode
-**"C:/Users/Mike/Desktop/ms2 report/Report-Milestone2-Michael Micros.tex"
-("C:/Users/Mike/Desktop/ms2 report/Report-Milestone2-Michael Micros.tex"
+**"C:/Users/Mike/Documents/GitHub/Video-Processing-Project-ECE-484-/Milestone 2
+/report/Report-Milestone2-Michael Micros.tex"
+
+("C:/Users/Mike/Documents/GitHub/Video-Processing-Project-ECE-484-/Milestone 2/
+report/Report-Milestone2-Michael Micros.tex"
 LaTeX2e <2015/10/01> patch level 2
 Babel <3.9n> and hyphenation patterns for 69 languages loaded.
 ("C:\Users\Mike\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -385,8 +388,13 @@ Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
+ <GUI.png, id=1, 793.46437pt x 542.025pt>
+File: GUI.png Graphic file (type png)
+ <use GUI.png>
+Package pdftex.def Info: GUI.png used on input line 87.
+(pdftex.def)             Requested size: 247.94499pt x 169.37411pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
@@ -396,81 +404,79 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
-<inputimage.png, id=1, 677.53125pt x 155.83218pt>
+<inputimage.png, id=3, 677.53125pt x 155.83218pt>
 File: inputimage.png Graphic file (type png)
  <use inputimage.png>
-Package pdftex.def Info: inputimage.png used on input line 91.
+Package pdftex.def Info: inputimage.png used on input line 99.
 (pdftex.def)             Requested size: 247.94499pt x 57.02689pt.
 
-<labelDisplay.png, id=3, 625.58719pt x 59.47218pt>
+<labelDisplay.png, id=4, 625.58719pt x 59.47218pt>
 File: labelDisplay.png Graphic file (type png)
  <use labelDisplay.png>
-Package pdftex.def Info: labelDisplay.png used on input line 101.
+Package pdftex.def Info: labelDisplay.png used on input line 109.
 (pdftex.def)             Requested size: 247.94499pt x 23.57065pt.
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--115
-
- []
-
-
-Overfull \hbox (23.37196pt too wide) detected at line 116
-[] \OT1/cmr/m/n/10 = []
- []
 
 [1{C:/Users/Mike/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
- <./inputimage.png> <./labelDisplay.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 127--129
+ <./GUI.png> <./inputimage.png>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
-
+Overfull \hbox (42.51501pt too wide) detected at line 139
+[][]
  []
 
 <brightnessadjustment.png, id=16, 503.63156pt x 240.14719pt>
 File: brightnessadjustment.png Graphic file (type png)
 
 <use brightnessadjustment.png>
-Package pdftex.def Info: brightnessadjustment.png used on input line 135.
+Package pdftex.def Info: brightnessadjustment.png used on input line 143.
 (pdftex.def)             Requested size: 247.94499pt x 118.22646pt.
+ <Image2GUI.jpg, id=17, 770.88pt x 419.31656pt>
+File: Image2GUI.jpg Graphic file (type jpg)
+
+<use Image2GUI.jpg>
+Package pdftex.def Info: Image2GUI.jpg used on input line 162.
+(pdftex.def)             Requested size: 247.94499pt x 134.86864pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
-
-<OriginalImage.jpg, id=17, 189.70876pt x 201.75375pt>
+ <OriginalImage.jpg, id=18, 189.70876pt x 201.75375pt>
 File: OriginalImage.jpg Graphic file (type jpg)
- <use OriginalImage.jpg>
-Package pdftex.def Info: OriginalImage.jpg used on input line 158.
-(pdftex.def)             Requested size: 247.94499pt x 263.69287pt.
 
-<OriginalImage2.jpg, id=18, 187.45032pt x 201.00093pt>
+<use OriginalImage.jpg>
+Package pdftex.def Info: OriginalImage.jpg used on input line 173.
+(pdftex.def)             Requested size: 247.94499pt x 263.69287pt.
+ [2 <./labelDisplay.png> <./brightnessadjustment.png> <./Image2GUI.jpg>] <Origi
+nalImage2.jpg, id=26, 187.45032pt x 201.00093pt>
 File: OriginalImage2.jpg Graphic file (type jpg)
 
 <use OriginalImage2.jpg>
-Package pdftex.def Info: OriginalImage2.jpg used on input line 163.
+Package pdftex.def Info: OriginalImage2.jpg used on input line 178.
 (pdftex.def)             Requested size: 247.94499pt x 265.8833pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -478,18 +484,17 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- <OverlayImage.jpg, id=19, 197.98969pt x 203.25937pt>
+ <OverlayImage.jpg, id=27, 197.98969pt x 203.25937pt>
 File: OverlayImage.jpg Graphic file (type jpg)
 
 <use OverlayImage.jpg>
-Package pdftex.def Info: OverlayImage.jpg used on input line 171.
+Package pdftex.def Info: OverlayImage.jpg used on input line 186.
 (pdftex.def)             Requested size: 247.94499pt x 254.5481pt.
- [2 <./brightnessadjustment.png> <./OriginalImage.jpg> <./OriginalImage2.jpg>] 
-<OverlayImage2.jpg, id=25, 196.48407pt x 195.73125pt>
+ <OverlayImage2.jpg, id=28, 196.48407pt x 195.73125pt>
 File: OverlayImage2.jpg Graphic file (type jpg)
 
 <use OverlayImage2.jpg>
-Package pdftex.def Info: OverlayImage2.jpg used on input line 176.
+Package pdftex.def Info: OverlayImage2.jpg used on input line 191.
 (pdftex.def)             Requested size: 247.94499pt x 247.01093pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -497,18 +502,20 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- <OverlaidImage.jpg, id=26, 191.21437pt x 187.45032pt>
+ <OverlaidImage.jpg, id=29, 191.21437pt x 187.45032pt>
 File: OverlaidImage.jpg Graphic file (type jpg)
 
 <use OverlaidImage.jpg>
-Package pdftex.def Info: OverlaidImage.jpg used on input line 184.
+Package pdftex.def Info: OverlaidImage.jpg used on input line 199.
 (pdftex.def)             Requested size: 247.94499pt x 243.07613pt.
- <OverlaidImage2.jpg, id=27, 186.6975pt x 179.92218pt>
+ <OverlaidImage2.jpg, id=30, 186.6975pt x 179.92218pt>
 File: OverlaidImage2.jpg Graphic file (type jpg)
 
 <use OverlaidImage2.jpg>
-Package pdftex.def Info: OverlaidImage2.jpg used on input line 189.
+Package pdftex.def Info: OverlaidImage2.jpg used on input line 204.
 (pdftex.def)             Requested size: 247.94499pt x 238.95856pt.
+ [3 <./OriginalImage.jpg> <./OriginalImage2.jpg> <./OverlayImage.jpg> <./Overla
+yImage2.jpg>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
@@ -516,21 +523,19 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
 
-<HistogramEqualizedImage.jpg, id=28, 187.45032pt x 185.94469pt>
+<HistogramEqualizedImage.jpg, id=34, 187.45032pt x 185.94469pt>
 File: HistogramEqualizedImage.jpg Graphic file (type jpg)
 
 <use HistogramEqualizedImage.jpg>
-Package pdftex.def Info: HistogramEqualizedImage.jpg used on input line 197.
+Package pdftex.def Info: HistogramEqualizedImage.jpg used on input line 212.
 (pdftex.def)             Requested size: 247.94499pt x 245.96693pt.
 
-<HistogramEqualizedImage2.jpg, id=29, 186.6975pt x 178.41656pt>
+<HistogramEqualizedImage2.jpg, id=35, 186.6975pt x 178.41656pt>
 File: HistogramEqualizedImage2.jpg Graphic file (type jpg)
 
 <use HistogramEqualizedImage2.jpg>
-Package pdftex.def Info: HistogramEqualizedImage2.jpg used on input line 202.
+Package pdftex.def Info: HistogramEqualizedImage2.jpg used on input line 217.
 (pdftex.def)             Requested size: 247.94499pt x 236.95888pt.
- [3 <./OverlayImage.jpg> <./OverlayImage2.jpg> <./OverlaidImage.jpg> <./Overlai
-dImage2.jpg>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
@@ -538,18 +543,18 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
 
-<BrightnessImage.jpg, id=33, 348.55219pt x 188.20313pt>
+<BrightnessImage.jpg, id=36, 348.55219pt x 188.20313pt>
 File: BrightnessImage.jpg Graphic file (type jpg)
 
 <use BrightnessImage.jpg>
-Package pdftex.def Info: BrightnessImage.jpg used on input line 210.
+Package pdftex.def Info: BrightnessImage.jpg used on input line 225.
 (pdftex.def)             Requested size: 247.94499pt x 133.88072pt.
 
-<BrightnessImage2.jpg, id=34, 348.55219pt x 185.19188pt>
+<BrightnessImage2.jpg, id=37, 348.55219pt x 185.19188pt>
 File: BrightnessImage2.jpg Graphic file (type jpg)
 
 <use BrightnessImage2.jpg>
-Package pdftex.def Info: BrightnessImage2.jpg used on input line 215.
+Package pdftex.def Info: BrightnessImage2.jpg used on input line 230.
 (pdftex.def)             Requested size: 247.94499pt x 131.73863pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -557,43 +562,44 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
-
-<ContrastImage.jpg, id=35, 352.31625pt x 206.27063pt>
+ [4 <./OverlaidImage.jpg> <./OverlaidImage2.jpg> <./HistogramEqualizedImage.jpg
+> <./HistogramEqualizedImage2.jpg>]
+<ContrastImage.jpg, id=41, 352.31625pt x 206.27063pt>
 File: ContrastImage.jpg Graphic file (type jpg)
  <use ContrastImage.jpg>
-Package pdftex.def Info: ContrastImage.jpg used on input line 222.
+Package pdftex.def Info: ContrastImage.jpg used on input line 237.
 (pdftex.def)             Requested size: 247.94499pt x 145.1627pt.
 
-<ContrastImage2.jpg, id=36, 351.56343pt x 196.48407pt>
+<ContrastImage2.jpg, id=42, 351.56343pt x 196.48407pt>
 File: ContrastImage2.jpg Graphic file (type jpg)
 
 <use ContrastImage2.jpg>
-Package pdftex.def Info: ContrastImage2.jpg used on input line 227.
+Package pdftex.def Info: ContrastImage2.jpg used on input line 242.
 (pdftex.def)             Requested size: 247.94499pt x 138.57225pt.
- [4 <./HistogramEqualizedImage.jpg> <./HistogramEqualizedImage2.jpg> <./Brightn
-essImage.jpg> <./BrightnessImage2.jpg> <./ContrastImage.jpg> <./ContrastImage2.
-jpg>] [5] ("Report-Milestone2-Michael Micros.aux") ) 
+ [5 <./BrightnessImage.jpg> <./BrightnessImage2.jpg> <./ContrastImage.jpg> <./C
+ontrastImage2.jpg>]
+("Report-Milestone2-Michael Micros.aux") ) 
 Here is how much of TeX's memory you used:
- 4836 strings out of 493634
- 73859 string characters out of 3135647
+ 4846 strings out of 493634
+ 74150 string characters out of 3135647
  249376 words of memory out of 3000000
- 8178 multiletter control sequences out of 15000+200000
+ 8186 multiletter control sequences out of 15000+200000
  5665 words of font info for 21 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 36i,10n,43p,615b,338s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Mike/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Mike/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:
-/Users/Mike/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-bxti10.pfb><C:/Users/Mike/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmmi10.pfb><C:/Users/Mike/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/Mike/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Mike/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Report-Milestone2-Michael Micros.pdf" (5 pages, 346123 bytes
+ 36i,10n,43p,797b,338s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Mike/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Mike/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Mik
+e/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
+><C:/Users/Mike/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmmi10.pfb><C:/Users/Mike/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb><C:/Users/Mike/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Mike/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "Report-Milestone2-Michael Micros.pdf" (5 pages, 574400 bytes
 ).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
+ 68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
